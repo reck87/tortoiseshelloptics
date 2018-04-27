@@ -10,16 +10,16 @@ body {
 
 .container {
   max-width: 960px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 header {
-    height: 30rem;
-    padding-top: 1rem;
-    background-image: url("../images/glasses-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 nav {
@@ -106,19 +106,18 @@ header .flex {
   color: white;
 }
 
-
 .flex {
   display: flex;
 }
 
-
 .mobile-nav {
   display: none;
 }
+
 h1 {
-font-weight: bold;
-font-size: 2rem;
-line-height: 1.2;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
 }
 
 footer {
